@@ -1,0 +1,17 @@
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package]
+name                = "maulingmonkey-console-input"
+version             = "0.0.0-git"
+edition             = "2018"
+repository          = "https://github.com/MaulingMonkey/console-input"
+authors             = ["MaulingMonkey <git@maulingmonkey.com>"]
+readme              = "Readme.md"
+license             = "MIT OR Apache-2.0"
+
+[lib]
+path                = "src/_lib.rs"
+
+[dev-dependencies]
+maulingmonkey-console-art.git = "https://github.com/MaulingMonkey/console-art"
+maulingmonkey-console-escape-codes.git = "https://github.com/MaulingMonkey/console-escape-codes"
